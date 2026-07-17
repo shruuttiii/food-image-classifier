@@ -18,16 +18,15 @@ interactive **Streamlit** web app.
 ## 🗂️ Repository Structure
 
 ```
-├── notebook/
-│   └── train_food_classifier.ipynb   # Full training pipeline (run on Colab)
-├── app/
-│   ├── app.py                        # Streamlit web app
-│   ├── nutrition_data.py             # Nutrition lookup table for all 15 classes
-│   ├── requirements.txt              # Python dependencies
-│   ├── food_classifier_model.h5      # Trained model (add after training)
-│   └── class_labels.json             # Class index mapping (add after training)
-├── README.md
-└── .gitignore
+food-image-classifier/
+│── app.py                  
+│── food_classifier_model.h5 
+│── class_labels.json       
+│── nutrition_data.py       
+│── requirements.txt        
+│── README.md               
+│── train_food_classifier.ipynb   
+│── .gitignore              
 ```
 
 ## 🧠 Model Approach
